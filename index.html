@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dark Blog Layout</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="nav__data">
+        <div class="logo">Curious Circuit</div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-line nav__toggle-menu"></i>
+        <i class="ri-close-circle-line nav__toggle-close"></i>
+        
+      </div>
+    </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"></li>
+
+
+          <li class="dropdown__item">
+            <div class="nav__link dropdown__button">
+              Categories <i class="ri-arrow-drop-down-line dropdown__arrow"></i>
+            </div>
+
+            <div class="dropdown__container">
+              <div class="dropdown__content">
+                <div class="dropdown__group">
+                  <div class="dropdown__icon">
+                    <i class="ri-flashlight-line"></i>
+                  </div>
+                  <span class="dropdown__title"> Health Related</span>
+
+                  <ul class="dropdown__list">
+                    <li>
+                      <a href="#" class="dropdown__link">Diet</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Mental Health</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Physical Wellbeing</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Diseases</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropdown__group">
+                  <div class="dropdown__icon">
+                    <i class="ri-heart-pulse-line"></i>
+                  </div>
+                  <span class="dropdown__title">Nutrition</span>
+
+                  <ul class="dropdown__list">
+                    <li>
+                      <a href="#" class="dropdown__link">Food as Fuel</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Diet and Chronic Diseases</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Types of Diets</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Counting Calories</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropdown__group">
+                  <div class="dropdown__icon">
+                    <i class="ri-hospital-line"></i>
+                  </div>
+                  <span class="dropdown__title">Diseases</span>
+
+                  <ul class="dropdown__list">
+                    <li>
+                      <a href="#" class="dropdown__link">Stress Management </a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">AutoImmune Diseases</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Meditation</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Dopamine responses</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropdown__group">
+                  <div class="dropdown__icon">
+                    <i class="ri-bookmark-line"></i>
+                  </div>
+                  <span class="dropdown__title">Curiosity</span>
+                  
+                  <ul class="dropdown__list">
+                    <li>
+                      <a href="#" class="dropdown__link">Crispr Technology</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">GMO</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Transgenic Plants</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Science of logic</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="dropdown__item">
+            <div class="nav__link dropdown__button">
+              Featured <i class="ri-arrow-drop-down-line dropdown__arrow"></i>
+            </div>
+
+            <div class="dropdown__container">
+              <div class="dropdown__content">
+                <div class="dropdown__group">
+                  <div class="dropdown__icon">
+                    <i class="ri-robot-2-line"></i>
+                  </div>
+                  <span class="dropdown__title">Bio Hacking</span>
+
+                  <ul class="dropdown__list">
+                    <li>
+                      <a href="#" class="dropdown__link">Red Light Therapy</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Sauna </a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Supplementation</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Dieting</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="dropdown__group">
+                  <div class="dropdown__icon">
+                    <i class="ri-group-line"></i>
+                  </div>
+                  <span class="dropdown__title">Social Outreach</span>
+
+                  <ul class="dropdown__list">
+                    <li>
+                      <a href="#" class="dropdown__link">Consumerism</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Culture</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Political Spectrum</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Religious Beliefs</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="dropdown__group">
+                  <div class="dropdown__icon">
+                    <i class="ri-brain-line"></i>
+                  </div>
+                  <span class="dropdown__title">Food For Thought</span>
+
+                  <ul class="dropdown__list">
+                    <li>
+                      <a href="#" class="dropdown__link">Entropy and Energy </a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Color Spectrum</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Conspiracies</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Creation of the Universe</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="dropdown__item">
+            <div class="nav__link dropdown__button">
+              About Us <i class="ri-arrow-drop-down-line dropdown__arrow"></i>
+            </div>
+
+            <div class="dropdown__container">
+              <div class="dropdown__content">
+                <div class="dropdown__group">
+                  <div class="dropdown__icon">
+                    <i class="ri-government-line"></i>
+                  </div>
+                  <span class="dropdown__title">Who We Are</span>
+
+                  <ul class="dropdown__list">
+                    <li>
+                      <a href="#" class="dropdown__link">Our Mission</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Our Team</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Terms of Use</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Privacy policy</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="dropdown__group">
+                  <div class="dropdown__icon">
+                    <i class="ri-phone-line"></i>
+                  </div>
+                  <span class="dropdown__title">Contact Us</span>
+
+                  <ul class="dropdown__list">
+                    <li>
+                      <a href="#" class="dropdown__link">Kitts Kikumu</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Juergen George</a>
+                    </li>
+                    
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+     
+    </nav>
+  </header>
+  
+  
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content animate-on-scroll">
+      <h1>Mental Health</h1>
+      <p>Explore insights, stories, and advice to maintain a healthy mind.</p>
+      <a href="#featured" class="btn-primary">Read More</a>
+    </div>
+  </section>
+
+  <!-- SECTION 1: BUILD YOUR SOCIAL BASE -->
+  <section class="content-section animate-on-scroll" id="categories">
+    <div class="section-content">
+      <div class="text-content">
+        <h2 class="section-title">Build Your Social Base</h2>
+        <p>Kinnectric introduces you to ideas and spaces that may interest you.</p>
+        <p>You can use these spaces to meet new people, engage, and create connections.</p>
+      </div>
+      <div class="image-content">
+        <img src="images/Invincible.webp" alt="Social Image">
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: KEEP IN TOUCH -->
+  <section class="content-section alternate animate-on-scroll" id="featured">
+    <div class="section-content">
+      <div class="image-content">
+        <img src="images/invincible2.jpg" alt="Messaging Image">
+      </div>
+      <div class="text-content">
+        <h2 class="section-title">Keep In Touch</h2>
+        <p>Kinnectric's messaging system replaces text, call, and voicemail.</p>
+        <p>Our built-in forums will change the way you handle group interests and discussions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: THREE COLUMNS -->
+  <section class="triple-section animate-on-scroll" id="more-categories">
+    <article class="triple-card">
+      <div class="card-image">
+        <img src="images/invincible4.jpg" alt="Runners Image">
+        <div class="overlay-text">Runners High</div>
+      </div>
+      <p>Our built-in forums will change the way you handle group interests and discussions.</p>
+    </article>
+    <article class="triple-card">
+      <div class="card-image">
+        <img src="images/invincible4.jpg" alt="Sleep Image">
+        <div class="overlay-text">Sleep</div>
+      </div>
+      <p>Kinnectric's messaging system replaces text, call, and voicemail.</p>
+    </article>
+    <article class="triple-card">
+      <div class="card-image">
+        <img src="images/Invincible.webp" alt="Diets Image">
+        <div class="overlay-text">Diets</div>
+      </div>
+      <p>Our built-in forums will change the way you handle group interests and discussions.</p>
+    </article>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer animate-on-scroll" id="about-us">
+    <div class="footer-top">
+      <div class="footer-logo-social">
+        <div class="footer-logo">Curiousity</div>
+        <div class="social-icons">
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook icon"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram icon"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter icon"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" alt="LinkedIn icon"></a>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <p>123-456-7890</p>
+        <p>123 Anywhere St., Any City, ST 12345</p>
+        <p>hello@reallygreatsite.com</p>
+      </div>
+      <div class="footer-links">
+        <p><a href="#">Content Integrity</a></p>
+        <p><a href="#">Privacy Policy</a></p>
+        <p><a href="#">Terms and Conditions</a></p>
+        <p><a href="#">Contact Us</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Healthline Media LLC. All rights reserved.</p>
+      <p>Our website services, content, and products are for informational purposes only.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>
